@@ -751,29 +751,7 @@ static const struct LevelUpMove sSandslashLevelUpLearnset[] = {
 };
 
 
-static const struct LevelUpMove sNidoranMLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_GROWL),
-    LEVEL_UP_MOVE(1, MOVE_SCRATCH),
-    LEVEL_UP_MOVE(7, MOVE_TAIL_WHIP),
-    LEVEL_UP_MOVE(9, MOVE_DOUBLE_KICK),
-    LEVEL_UP_MOVE(13, MOVE_POISON_STING),
-    LEVEL_UP_MOVE(19, MOVE_FURY_SWIPES),
-    LEVEL_UP_MOVE(21, MOVE_BITE),
-    LEVEL_UP_MOVE(25, MOVE_HELPING_HAND),
 
-    LEVEL_UP_MOVE(31, MOVE_TOXIC_SPIKES),
-    LEVEL_UP_MOVE(33, MOVE_FLATTER),
-    LEVEL_UP_MOVE(37, MOVE_CRUNCH),
-    LEVEL_UP_MOVE(43, MOVE_CAPTIVATE),
-
-    LEVEL_UP_MOVE(31, MOVE_TOXIC_SPIKES),
-    LEVEL_UP_MOVE(33, MOVE_FLATTER),
-    LEVEL_UP_MOVE(37, MOVE_CRUNCH),
-    LEVEL_UP_MOVE(43, MOVE_CAPTIVATE),
-
-    LEVEL_UP_MOVE(45, MOVE_POISON_FANG),
-    LEVEL_UP_END
-};
 
 static const struct LevelUpMove sNidoranFLevelUpLearnset[] = {
 
@@ -844,7 +822,7 @@ static const struct LevelUpMove sNidoqueenLevelUpLearnset[] = {
 };
 
 
-static const struct LevelUpMove sNidoranFLevelUpLearnset[] = {
+
 
 static const struct LevelUpMove sNidoranMLevelUpLearnset[] = {
 
@@ -4120,20 +4098,7 @@ static const struct LevelUpMove sFlareonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sPorygon2LevelUpLearnset[] = {
 
-    LEVEL_UP_MOVE( 9, MOVE_BABY_DOLL_EYES),
-    LEVEL_UP_MOVE(13, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE(17, MOVE_BITE),
-    LEVEL_UP_MOVE(20, MOVE_FIRE_FANG),
-    LEVEL_UP_MOVE(25, MOVE_FIRE_SPIN),
-    LEVEL_UP_MOVE(29, MOVE_SCARY_FACE),
-    LEVEL_UP_MOVE(33, MOVE_SMOG),
-    LEVEL_UP_MOVE(37, MOVE_LAVA_PLUME),
-    LEVEL_UP_MOVE(41, MOVE_LAST_RESORT),
-    LEVEL_UP_MOVE(45, MOVE_FLARE_BLITZ),
-    LEVEL_UP_END
-};
 
 static const struct LevelUpMove sPorygonLevelUpLearnset[] = {
 
@@ -7215,11 +7180,7 @@ static const struct LevelUpMove sDonphanLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sPorygonLevelUpLearnset[] = {
 
-    LEVEL_UP_MOVE(50, MOVE_GIGA_IMPACT),
-    LEVEL_UP_END
-};
 
 static const struct LevelUpMove sPorygon2LevelUpLearnset[] = {
 
