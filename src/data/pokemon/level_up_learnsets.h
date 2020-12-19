@@ -12113,10 +12113,6 @@ static const struct LevelUpMove sChimechoLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(57, MOVE_HEALING_WISH),
 	LEVEL_UP_END
 
-	LEVEL_UP_MOVE(47, MOVE_HEAL_PULSE),
-	LEVEL_UP_MOVE(52, MOVE_SYNCHRONOISE),
-	LEVEL_UP_MOVE(57, MOVE_HEALING_WISH),
-	LEVEL_UP_END
 };
 
 static const struct LevelUpMove sTurtwigLevelUpLearnset[] = {
