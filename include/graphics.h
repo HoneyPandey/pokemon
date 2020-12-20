@@ -6540,8 +6540,8 @@ extern const u8 gTrainerBackPic_Steven[];
 
 extern const u32 gTrainerBackPicPalette_Red[];
 extern const u32 gTrainerBackPicPalette_Leaf[];
+extern const u32 gTrainerBackPicPalette_Brendan[];
 
-// pokeblock
 extern const u32 gMenuPokeblock_Gfx[];
 extern const u32 gMenuPokeblock_Pal[];
 extern const u32 gMenuPokeblock_Tilemap[];
