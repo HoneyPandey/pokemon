@@ -83,7 +83,7 @@ void LoadObjectReflectionPalette(struct ObjectEvent* objectEvent, struct Sprite*
         sprite->oam.paletteNum = IndexOfSpritePaletteTag(OBJ_EVENT_PAL_TAG_10);
         UpdatePaletteGammaType(sprite->oam.paletteNum, GAMMA_NORMAL);
         UpdateSpritePaletteWithWeather(sprite->oam.paletteNum);
-        LoadObjectHighBridgeReflectionPalette(objectEvent, sprite->oam.paletteNum);
+        //LoadObjectHighBridgeReflectionPalette(objectEvent, sprite->oam.paletteNum);
     }
     else
     {
