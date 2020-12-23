@@ -557,3 +557,39 @@ gMetatiles_UnionRoom:: @ 83DF392
 	.align 1
 gMetatileAttributes_UnionRoom:: @ 83DF6A2
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_MYNEWMAP::
+	.incbin "data/tilesets/secondary/mynewmap/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MYNEWMAP::
+	.incbin "data/tilesets/secondary/mynewmap/metatile_attributes.bin"
+	.align 1
+gMetatiles_NEW_GENERAL::
+	.incbin "data/tilesets/primary/new_general/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_NEW_GENERAL::
+	.incbin "data/tilesets/primary/new_general/metatile_attributes.bin"
+	.align 1
+gMetatiles_MAIN::
+	.incbin "data/tilesets/primary/main/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MAIN::
+	.incbin "data/tilesets/primary/main/metatile_attributes.bin"
+	.align 1
+gMetatiles_NEWSEC::
+	.incbin "data/tilesets/secondary/newsec/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_NEWSEC::
+	.incbin "data/tilesets/secondary/newsec/metatile_attributes.bin"
+	.align 1
+gMetatiles_ANYTHING::
+	.incbin "data/tilesets/primary/anything/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_ANYTHING::
+	.incbin "data/tilesets/primary/anything/metatile_attributes.bin"

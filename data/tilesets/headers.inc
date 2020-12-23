@@ -830,3 +830,58 @@ gTileset_UnionRoom:: @ 83DFDFC
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_MYNEWMAP::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_MYNEWMAP
+	.4byte gTilesetPalettes_MYNEWMAP
+	.4byte gMetatiles_MYNEWMAP
+	.4byte gMetatileAttributes_MYNEWMAP
+	.4byte NULL
+
+	.align 2
+gTileset_NEW_GENERAL::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_NEW_GENERAL
+	.4byte gTilesetPalettes_NEW_GENERAL
+	.4byte gMetatiles_NEW_GENERAL
+	.4byte gMetatileAttributes_NEW_GENERAL
+	.4byte NULL
+
+	.align 2
+gTileset_MAIN::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_MAIN
+	.4byte gTilesetPalettes_MAIN
+	.4byte gMetatiles_MAIN
+	.4byte gMetatileAttributes_MAIN
+	.4byte NULL
+
+	.align 2
+gTileset_NEWSEC::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_NEWSEC
+	.4byte gTilesetPalettes_NEWSEC
+	.4byte gMetatiles_NEWSEC
+	.4byte gMetatileAttributes_NEWSEC
+	.4byte NULL
+
+	.align 2
+gTileset_ANYTHING::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_ANYTHING
+	.4byte gTilesetPalettes_ANYTHING
+	.4byte gMetatiles_ANYTHING
+	.4byte gMetatileAttributes_ANYTHING
+	.4byte NULL

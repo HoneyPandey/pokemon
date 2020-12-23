@@ -1729,3 +1729,103 @@ gTilesetPalettes_UnionRoom:: @ 8395678
 	.align 2
 gTilesetTiles_UnionRoom:: @ 8395878
 	.incbin "data/tilesets/secondary/union_room/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MYNEWMAP::
+	.incbin "data/tilesets/secondary/mynewmap/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/mynewmap/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MYNEWMAP::
+	.incbin "data/tilesets/secondary/mynewmap/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_NEW_GENERAL::
+	.incbin "data/tilesets/primary/new_general/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/new_general/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_NEW_GENERAL::
+	.incbin "data/tilesets/primary/new_general/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MAIN::
+	.incbin "data/tilesets/primary/main/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/main/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MAIN::
+	.incbin "data/tilesets/primary/main/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_NEWSEC::
+	.incbin "data/tilesets/secondary/newsec/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/newsec/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_NEWSEC::
+	.incbin "data/tilesets/secondary/newsec/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_ANYTHING::
+	.incbin "data/tilesets/primary/anything/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/anything/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_ANYTHING::
+	.incbin "data/tilesets/primary/anything/tiles.4bpp.lz"
