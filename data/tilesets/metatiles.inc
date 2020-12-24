@@ -593,3 +593,10 @@ gMetatiles_ANYTHING::
 	.align 1
 gMetatileAttributes_ANYTHING::
 	.incbin "data/tilesets/primary/anything/metatile_attributes.bin"
+	.align 1
+gMetatiles_INSIDE::
+	.incbin "data/tilesets/secondary/inside/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_INSIDE::
+	.incbin "data/tilesets/secondary/inside/metatile_attributes.bin"

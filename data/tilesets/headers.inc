@@ -885,3 +885,14 @@ gTileset_ANYTHING::
 	.4byte gMetatiles_ANYTHING
 	.4byte gMetatileAttributes_ANYTHING
 	.4byte NULL
+
+	.align 2
+gTileset_INSIDE::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_INSIDE
+	.4byte gTilesetPalettes_INSIDE
+	.4byte gMetatiles_INSIDE
+	.4byte gMetatileAttributes_INSIDE
+	.4byte NULL

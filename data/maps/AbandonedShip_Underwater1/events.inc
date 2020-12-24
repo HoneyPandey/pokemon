@@ -1,0 +1,11 @@
+@
+@ DO NOT MODIFY THIS FILE! It is auto-generated from data/maps/AbandonedShip_Underwater1/map.json
+@
+
+AbandonedShip_Underwater1_MapWarps:
+	warp_def 3, 7, 3, 0, MAP_ABANDONED_SHIP_UNDERWATER2
+	warp_def 4, 7, 3, 0, MAP_ABANDONED_SHIP_UNDERWATER2
+
+AbandonedShip_Underwater1_MapEvents::
+	map_events 0x0, AbandonedShip_Underwater1_MapWarps, 0x0, 0x0
+
