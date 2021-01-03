@@ -1,1 +1,10 @@
+@
+@ DO NOT MODIFY THIS FILE! It is auto-generated from data/maps/LittlerootTown_BrendansHouse_1F/map.json
+@
+
+LittlerootTown_BrendansHouse_1F_MapConnectionsList:
+
+LittlerootTown_BrendansHouse_1F_MapConnections:
+	.4byte 0
+	.4byte LittlerootTown_BrendansHouse_1F_MapConnectionsList
 

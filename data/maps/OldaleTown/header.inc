@@ -6,7 +6,7 @@ OldaleTown:
 	.4byte OldaleTown_Layout
 	.4byte OldaleTown_MapEvents
 	.4byte OldaleTown_MapScripts
-	.4byte OldaleTown_MapConnections
+	.4byte 0x0
 	.2byte MUS_OLDALE
 	.2byte LAYOUT_OLDALE_TOWN
 	.byte MAPSEC_OLDALE_TOWN

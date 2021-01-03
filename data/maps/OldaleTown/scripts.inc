@@ -350,8 +350,8 @@ OldaleTown_Movement_ReturnToOriginalPosition: @ 81E918B
 	step_end
 
 OldaleTown_Text_SavingMyProgress: @ 81E918E
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string "How is your mother doing, {PLAYER}?$"
+	
 
 OldaleTown_Text_IWorkAtPokemonMart: @ 81E91C0
 	.string "Hi!\n"
@@ -404,4 +404,6 @@ OldaleTown_Text_BrendanLetsGoBack: @ 81E948A
 OldaleTown_Text_CitySign: @ 81E94DA
 	.string "OLDALE TOWN\n"
 	.string "“Where things start off scarce.”$"
+
+
 

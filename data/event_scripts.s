@@ -1064,3 +1064,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/NewMap1/scripts.inc"
 
 	.include "data/maps/NewMap2/scripts.inc"
+
+	.include "data/maps/Oldmanhouse/scripts.inc"
+
+	.include "data/maps/RelisaCity/scripts.inc"
+
+	.include "data/maps/Underground_Cave/scripts.inc"

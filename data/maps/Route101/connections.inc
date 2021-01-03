@@ -3,9 +3,8 @@
 @
 
 Route101_MapConnectionsList:
-	connection up, 0, MAP_OLDALE_TOWN
 
 Route101_MapConnections:
-	.4byte 1
+	.4byte 0
 	.4byte Route101_MapConnectionsList
 

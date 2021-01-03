@@ -447,3 +447,6 @@ gMapLayouts::
 	.4byte SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked_Layout
 	.4byte NewMap1_Layout
 	.4byte NewMap2_Layout
+	.4byte Oldmanhouse_Layout
+	.4byte RelisaCity_Layout
+	.4byte Underground_Cave_Layout

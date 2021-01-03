@@ -17,27 +17,7 @@
 
   ],
   "warp_events": [
-    {
-      "x": 28,
-      "y": 24,
-      "elevation": 0,
-      "dest_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
-      "dest_warp_id": 1
-    },
-    {
-      "x": 11,
-      "y": 17,
-      "elevation": 0,
-      "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
-      "dest_warp_id": 1
-    },
-    {
-      "x": 10,
-      "y": 25,
-      "elevation": 0,
-      "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
-      "dest_warp_id": 0
-    }
+
   ],
   "coord_events": [
 

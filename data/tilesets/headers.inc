@@ -896,3 +896,25 @@ gTileset_INSIDE::
 	.4byte gMetatiles_INSIDE
 	.4byte gMetatileAttributes_INSIDE
 	.4byte NULL
+
+	.align 2
+gTileset_cave::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_cave
+	.4byte gTilesetPalettes_cave
+	.4byte gMetatiles_cave
+	.4byte gMetatileAttributes_cave
+	.4byte NULL
+
+	.align 2
+gTileset_Route2::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Route2
+	.4byte gTilesetPalettes_Route2
+	.4byte gMetatiles_Route2
+	.4byte gMetatileAttributes_Route2
+	.4byte NULL

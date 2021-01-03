@@ -104,10 +104,10 @@
     {
       "id": "LAYOUT_OLDALE_TOWN",
       "name": "OldaleTown_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_ANYTHING",
+      "secondary_tileset": "gTileset_NEWSEC",
       "border_filepath": "data/layouts/OldaleTown/border.bin",
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin"
     },
@@ -164,9 +164,9 @@
     {
       "id": "LAYOUT_ROUTE101",
       "name": "Route101_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 30,
+      "height": 40,
+      "primary_tileset": "gTileset_Route2",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route101/border.bin",
       "blockdata_filepath": "data/layouts/Route101/map.bin"
@@ -537,7 +537,7 @@
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_INSIDE",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/map.bin"
     },
@@ -567,7 +567,7 @@
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_INSIDE",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/map.bin"
     },
@@ -4416,7 +4416,7 @@
       "name": "NewMap1_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_MAIN",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/NewMap1/border.bin",
       "blockdata_filepath": "data/layouts/NewMap1/map.bin"
@@ -4426,10 +4426,40 @@
       "name": "NewMap2_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_ANYTHING",
+      "secondary_tileset": "gTileset_NEWSEC",
       "border_filepath": "data/layouts/NewMap2/border.bin",
       "blockdata_filepath": "data/layouts/NewMap2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLDMANHOUSE",
+      "name": "Oldmanhouse_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_INSIDE",
+      "border_filepath": "data/layouts/Oldmanhouse/border.bin",
+      "blockdata_filepath": "data/layouts/Oldmanhouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_RELISA_CITY",
+      "name": "RelisaCity_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/RelisaCity/border.bin",
+      "blockdata_filepath": "data/layouts/RelisaCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND_CAVE",
+      "name": "Underground_Cave_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_cave",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Underground_Cave/border.bin",
+      "blockdata_filepath": "data/layouts/Underground_Cave/map.bin"
     }
   ]
 }

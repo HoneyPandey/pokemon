@@ -416,3 +416,35 @@ RivalsHouse_2F_Text_BrendanWhereShouldIGoNext: @ 81F9BE7
 	.string "Hey, {PLAYER}, if I see you while I'm out\n"
 	.string "catching POKéMON, I can pitch you a\l"
 	.string "battle if you'd like.$"
+
+Script_BasicLiteracy::
+ lock
+ faceplayer
+ msgbox Literate, MSGBOX_YESNO
+ compare VAR_RESULT, 0
+ goto_if_eq Script_BasicLiteracyNot
+ msgbox YesAns, MSGBOX_NPC
+ release
+ end
+Literate:
+ .string "Hi {PLAYER}! \n"
+ .string "Would you like to have a piece\l"
+ .string "of advice? $"
+Script_BasicLiteracyNot::
+ msgbox okay1, MSGBOX_NPC
+ end
+okay1:
+ .string "Okay....come again any time! $"
+YesAns:
+ .string "Let's Begin!!\p"
+ .string "Advice no. 1 : You can heal your\n"
+ .string "pokemon at pokecenters for free!\p"
+ .string "Advice no. 2 : You can buy great items\n"
+ .string "at pokemart! \p"
+ .string "Advice no. 3 : You cannot have more than\n"
+ .string "6 pokemons in your party! \p"
+ .string "Advice no. 4 : You should check your game  \n"
+ .string "daily so that you don't miss any \l"
+ .string "'ONE-TIME DAILY QUEST'\p"
+ .string "Okay mate, that's all! $"
+

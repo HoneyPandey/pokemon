@@ -600,3 +600,17 @@ gMetatiles_INSIDE::
 	.align 1
 gMetatileAttributes_INSIDE::
 	.incbin "data/tilesets/secondary/inside/metatile_attributes.bin"
+	.align 1
+gMetatiles_cave::
+	.incbin "data/tilesets/primary/cave/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_cave::
+	.incbin "data/tilesets/primary/cave/metatile_attributes.bin"
+	.align 1
+gMetatiles_Route2::
+	.incbin "data/tilesets/primary/route2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Route2::
+	.incbin "data/tilesets/primary/route2/metatile_attributes.bin"

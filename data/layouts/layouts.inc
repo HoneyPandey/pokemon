@@ -160,12 +160,12 @@ OldaleTown_Layout_Blockdata::
 
 	.align 2
 OldaleTown_Layout::
-	.4byte 20
-	.4byte 20
+	.4byte 40
+	.4byte 40
 	.4byte OldaleTown_Layout_Border
 	.4byte OldaleTown_Layout_Blockdata
-	.4byte gTileset_General
-	.4byte gTileset_Petalburg
+	.4byte gTileset_ANYTHING
+	.4byte gTileset_NEWSEC
 
 DewfordTown_Layout_Border::
 	.incbin "data/layouts/DewfordTown/border.bin"
@@ -250,11 +250,11 @@ Route101_Layout_Blockdata::
 
 	.align 2
 Route101_Layout::
-	.4byte 20
-	.4byte 20
+	.4byte 30
+	.4byte 40
 	.4byte Route101_Layout_Border
 	.4byte Route101_Layout_Blockdata
-	.4byte gTileset_General
+	.4byte gTileset_Route2
 	.4byte gTileset_Petalburg
 
 Route102_Layout_Border::
@@ -810,7 +810,7 @@ LittlerootTown_BrendansHouse_1F_Layout::
 	.4byte LittlerootTown_BrendansHouse_1F_Layout_Border
 	.4byte LittlerootTown_BrendansHouse_1F_Layout_Blockdata
 	.4byte gTileset_Building
-	.4byte gTileset_BrendansMaysHouse
+	.4byte gTileset_INSIDE
 
 LittlerootTown_BrendansHouse_2F_Layout_Border::
 	.incbin "data/layouts/LittlerootTown_BrendansHouse_2F/border.bin"
@@ -855,7 +855,7 @@ LittlerootTown_MaysHouse_2F_Layout::
 	.4byte LittlerootTown_MaysHouse_2F_Layout_Border
 	.4byte LittlerootTown_MaysHouse_2F_Layout_Blockdata
 	.4byte gTileset_Building
-	.4byte gTileset_BrendansMaysHouse
+	.4byte gTileset_INSIDE
 
 LittlerootTown_ProfessorBirchsLab_Layout_Border::
 	.incbin "data/layouts/LittlerootTown_ProfessorBirchsLab/border.bin"
@@ -6629,7 +6629,7 @@ NewMap1_Layout::
 	.4byte 20
 	.4byte NewMap1_Layout_Border
 	.4byte NewMap1_Layout_Blockdata
-	.4byte gTileset_General
+	.4byte gTileset_MAIN
 	.4byte gTileset_Petalburg
 
 NewMap2_Layout_Border::
@@ -6644,6 +6644,51 @@ NewMap2_Layout::
 	.4byte 40
 	.4byte NewMap2_Layout_Border
 	.4byte NewMap2_Layout_Blockdata
+	.4byte gTileset_ANYTHING
+	.4byte gTileset_NEWSEC
+
+Oldmanhouse_Layout_Border::
+	.incbin "data/layouts/Oldmanhouse/border.bin"
+
+Oldmanhouse_Layout_Blockdata::
+	.incbin "data/layouts/Oldmanhouse/map.bin"
+
+	.align 2
+Oldmanhouse_Layout::
+	.4byte 11
+	.4byte 9
+	.4byte Oldmanhouse_Layout_Border
+	.4byte Oldmanhouse_Layout_Blockdata
+	.4byte gTileset_Building
+	.4byte gTileset_INSIDE
+
+RelisaCity_Layout_Border::
+	.incbin "data/layouts/RelisaCity/border.bin"
+
+RelisaCity_Layout_Blockdata::
+	.incbin "data/layouts/RelisaCity/map.bin"
+
+	.align 2
+RelisaCity_Layout::
+	.4byte 20
+	.4byte 20
+	.4byte RelisaCity_Layout_Border
+	.4byte RelisaCity_Layout_Blockdata
 	.4byte gTileset_General
+	.4byte gTileset_Petalburg
+
+Underground_Cave_Layout_Border::
+	.incbin "data/layouts/Underground_Cave/border.bin"
+
+Underground_Cave_Layout_Blockdata::
+	.incbin "data/layouts/Underground_Cave/map.bin"
+
+	.align 2
+Underground_Cave_Layout::
+	.4byte 20
+	.4byte 20
+	.4byte Underground_Cave_Layout_Border
+	.4byte Underground_Cave_Layout_Blockdata
+	.4byte gTileset_cave
 	.4byte gTileset_Petalburg
 

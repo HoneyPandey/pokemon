@@ -62,6 +62,8 @@ gMapGroup0::
 	.4byte Underwater_Route125
 	.4byte NewMap1
 	.4byte NewMap2
+	.4byte RelisaCity
+	.4byte Underground_Cave
 
 gMapGroup1::
 	.4byte LittlerootTown_BrendansHouse_1F
@@ -69,6 +71,7 @@ gMapGroup1::
 	.4byte LittlerootTown_MaysHouse_1F
 	.4byte LittlerootTown_MaysHouse_2F
 	.4byte LittlerootTown_ProfessorBirchsLab
+	.4byte Oldmanhouse
 
 gMapGroup2::
 	.4byte OldaleTown_House1

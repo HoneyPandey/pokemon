@@ -6,7 +6,7 @@ Route101:
 	.4byte Route101_Layout
 	.4byte Route101_MapEvents
 	.4byte Route101_MapScripts
-	.4byte Route101_MapConnections
+	.4byte 0x0
 	.2byte MUS_ROUTE101
 	.2byte LAYOUT_ROUTE101
 	.byte MAPSEC_ROUTE_101
