@@ -6670,7 +6670,7 @@ RelisaCity_Layout_Blockdata::
 
 	.align 2
 RelisaCity_Layout::
-	.4byte 60
+	.4byte 80
 	.4byte 60
 	.4byte RelisaCity_Layout_Border
 	.4byte RelisaCity_Layout_Blockdata
