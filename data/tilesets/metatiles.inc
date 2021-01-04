@@ -614,3 +614,17 @@ gMetatiles_Route2::
 	.align 1
 gMetatileAttributes_Route2::
 	.incbin "data/tilesets/primary/route2/metatile_attributes.bin"
+	.align 1
+gMetatiles_Relisa_City::
+	.incbin "data/tilesets/primary/relisa_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Relisa_City::
+	.incbin "data/tilesets/primary/relisa_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_t2::
+	.incbin "data/tilesets/secondary/t2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_t2::
+	.incbin "data/tilesets/secondary/t2/metatile_attributes.bin"

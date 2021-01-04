@@ -918,3 +918,25 @@ gTileset_Route2::
 	.4byte gMetatiles_Route2
 	.4byte gMetatileAttributes_Route2
 	.4byte NULL
+
+	.align 2
+gTileset_Relisa_City::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Relisa_City
+	.4byte gTilesetPalettes_Relisa_City
+	.4byte gMetatiles_Relisa_City
+	.4byte gMetatileAttributes_Relisa_City
+	.4byte NULL
+
+	.align 2
+gTileset_t2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_t2
+	.4byte gTilesetPalettes_t2
+	.4byte gMetatiles_t2
+	.4byte gMetatileAttributes_t2
+	.4byte NULL

@@ -255,7 +255,7 @@ Route101_Layout::
 	.4byte Route101_Layout_Border
 	.4byte Route101_Layout_Blockdata
 	.4byte gTileset_Route2
-	.4byte gTileset_Petalburg
+	.4byte gTileset_NEWSEC
 
 Route102_Layout_Border::
 	.incbin "data/layouts/Route102/border.bin"
@@ -6670,12 +6670,12 @@ RelisaCity_Layout_Blockdata::
 
 	.align 2
 RelisaCity_Layout::
-	.4byte 20
-	.4byte 20
+	.4byte 60
+	.4byte 60
 	.4byte RelisaCity_Layout_Border
 	.4byte RelisaCity_Layout_Blockdata
-	.4byte gTileset_General
-	.4byte gTileset_Petalburg
+	.4byte gTileset_Route2
+	.4byte gTileset_t2
 
 Underground_Cave_Layout_Border::
 	.incbin "data/layouts/Underground_Cave/border.bin"

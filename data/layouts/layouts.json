@@ -167,7 +167,7 @@
       "width": 30,
       "height": 40,
       "primary_tileset": "gTileset_Route2",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_NEWSEC",
       "border_filepath": "data/layouts/Route101/border.bin",
       "blockdata_filepath": "data/layouts/Route101/map.bin"
     },
@@ -4444,10 +4444,10 @@
     {
       "id": "LAYOUT_RELISA_CITY",
       "name": "RelisaCity_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "width": 60,
+      "height": 60,
+      "primary_tileset": "gTileset_Route2",
+      "secondary_tileset": "gTileset_t2",
       "border_filepath": "data/layouts/RelisaCity/border.bin",
       "blockdata_filepath": "data/layouts/RelisaCity/map.bin"
     },

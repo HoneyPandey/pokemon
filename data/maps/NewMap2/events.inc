@@ -13,7 +13,7 @@ NewMap2_MapWarps:
 	warp_def 12, 22, 0, 0, MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F
 	warp_def 30, 21, 0, 1, MAP_OLDMANHOUSE
 	warp_def 30, 7, 0, 0, MAP_ROUTE101
-	warp_def 31, 7, 0, 1, MAP_ROUTE101
+	warp_def 31, 7, 0, 0, MAP_ROUTE101
 
 NewMap2_MapEvents::
 	map_events NewMap2_ObjectEvents, NewMap2_MapWarps, 0x0, 0x0
