@@ -98,7 +98,7 @@ const u32 gObjectEventPic_Camper[] = INCBIN_U32("graphics/object_events/pics/peo
 const u32 gObjectEventPic_Picnicker[] = INCBIN_U32("graphics/object_events/pics/people/picnicker.4bpp");
 const u32 gObjectEventPic_Man3[] = INCBIN_U32("graphics/object_events/pics/people/man_3.4bpp");
 const u32 gObjectEventPic_Woman5[] = INCBIN_U32("graphics/object_events/pics/people/woman_5.4bpp");
-const u32 gObjectEventPic_Youngster[] = INCBIN_U32("graphics/object_events/pics/people/youngster.4bpp");
+const u32 gObjectEventPic_Youngster[] = INCBIN_U32("graphics/object_events/pics/people/new/youngsterhgss.4bpp");
 const u32 gObjectEventPic_BugCatcher[] = INCBIN_U32("graphics/object_events/pics/people/bug_catcher.4bpp");
 const u32 gObjectEventPic_PsychicM[] = INCBIN_U32("graphics/object_events/pics/people/psychic_m.4bpp");
 const u32 gObjectEventPic_SchoolKidM[] = INCBIN_U32("graphics/object_events/pics/people/school_kid_m.4bpp");
@@ -371,3 +371,6 @@ const u32 gObjectEventPic_Lugia[] = INCBIN_U32("graphics/object_events/pics/poke
 const u16 gObjectEventPalette32[] = INCBIN_U16("graphics/object_events/palettes/32.gbapal");
 const u32 gObjectEventPic_HoOh[] = INCBIN_U32("graphics/object_events/pics/pokemon/ho_oh.4bpp");
 const u16 gObjectEventPalette31[] = INCBIN_U16("graphics/object_events/palettes/31.gbapal");
+
+//const u32 gObjectEventPic_Example[] = INCBIN_U32("graphics/object_events/pics/people/new/youngsterhgss.4bpp");
+const u16 gObjectEventPalette_Youngster[] = INCBIN_U16("graphics/object_events/pics/people/new/youngsterhgss.gbapal");

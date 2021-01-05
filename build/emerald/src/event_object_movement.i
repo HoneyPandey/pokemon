@@ -5338,7 +5338,7 @@ const u32 gObjectEventPic_Camper[] = INCBIN_U32("graphics/object_events/pics/peo
 const u32 gObjectEventPic_Picnicker[] = INCBIN_U32("graphics/object_events/pics/people/picnicker.4bpp");
 const u32 gObjectEventPic_Man3[] = INCBIN_U32("graphics/object_events/pics/people/man_3.4bpp");
 const u32 gObjectEventPic_Woman5[] = INCBIN_U32("graphics/object_events/pics/people/woman_5.4bpp");
-const u32 gObjectEventPic_Youngster[] = INCBIN_U32("graphics/object_events/pics/people/youngster.4bpp");
+const u32 gObjectEventPic_Youngster[] = INCBIN_U32("graphics/object_events/pics/people/new/youngsterhgss.4bpp");
 const u32 gObjectEventPic_BugCatcher[] = INCBIN_U32("graphics/object_events/pics/people/bug_catcher.4bpp");
 const u32 gObjectEventPic_PsychicM[] = INCBIN_U32("graphics/object_events/pics/people/psychic_m.4bpp");
 const u32 gObjectEventPic_SchoolKidM[] = INCBIN_U32("graphics/object_events/pics/people/school_kid_m.4bpp");
@@ -5611,6 +5611,9 @@ const u32 gObjectEventPic_Lugia[] = INCBIN_U32("graphics/object_events/pics/poke
 const u16 gObjectEventPalette32[] = INCBIN_U16("graphics/object_events/palettes/32.gbapal");
 const u32 gObjectEventPic_HoOh[] = INCBIN_U32("graphics/object_events/pics/pokemon/ho_oh.4bpp");
 const u16 gObjectEventPalette31[] = INCBIN_U16("graphics/object_events/palettes/31.gbapal");
+
+
+const u16 gObjectEventPalette_Youngster[] = INCBIN_U16("graphics/object_events/pics/people/new/youngsterhgss.gbapal");
 # 149 "src/event_object_movement.c" 2
 
 
@@ -5866,7 +5869,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
     [0x4F] = 3,
     [0x50] = 4,
 };
-# 442 "src/event_object_movement.c"
+# 444 "src/event_object_movement.c"
 # 1 "src/data/field_effects/field_effect_object_template_pointers.h" 1
 const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowSmall;
 const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowMedium;
@@ -5945,7 +5948,7 @@ const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[] = {
     [35] = &gFieldEffectObjectTemplate_SmallSparkle,
     [36] = &gFieldEffectObjectTemplate_Rayquaza,
 };
-# 443 "src/event_object_movement.c" 2
+# 445 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_pic_tables.h" 1
 const struct SpriteFrameImage gObjectEventPicTable_BrendanNormal[] = {
     {.data = (u8 *)gObjectEventPic_BrendanNormal + (2 * 4 * 0 * 64)/2, .size = (2 * 4 * 64)/2},
@@ -8121,7 +8124,7 @@ const struct SpriteFrameImage gObjectEventPicTable_RubySapphireMay[] = {
     {.data = (u8 *)gObjectEventPic_RubySapphireMayNormal + (2 * 4 * 7 * 64)/2, .size = (2 * 4 * 64)/2},
     {.data = (u8 *)gObjectEventPic_RubySapphireMayNormal + (2 * 4 * 8 * 64)/2, .size = (2 * 4 * 64)/2},
 };
-# 444 "src/event_object_movement.c" 2
+# 446 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_anims.h" 1
 const union AnimCmd gObjectEventImageAnim_StayStill[] =
 {
@@ -9294,7 +9297,7 @@ const struct UnkStruct_085094AC gUnknown_085094AC[] = {
         {0, 0, 0, 0},
     },
 };
-# 445 "src/event_object_movement.c" 2
+# 447 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/base_oam.h" 1
 const struct OamData gObjectEventBaseOam_8x8 = {
     .shape = (((0 << 2) | (0)) & 0x03),
@@ -9343,7 +9346,7 @@ const struct OamData gObjectEventBaseOam_64x64 = {
     .size = ((((3 << 2) | (0)) >> 2) & 0x03),
     .priority = 2
 };
-# 446 "src/event_object_movement.c" 2
+# 448 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_subsprites.h" 1
 const struct Subsprite gObjectEventSpriteOamTable_16x16_0[] = {
     {
@@ -10875,7 +10878,7 @@ const struct SubspriteTable gObjectEventSpriteOamTables_88x32[] = {
     {16, gObjectEventSpriteOamTable_88x32_3},
     {16, gObjectEventSpriteOamTable_88x32_3}
 };
-# 447 "src/event_object_movement.c" 2
+# 449 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_graphics_info.h" 1
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {0xFFFF, 0x1100, 0x1102, 512, 16, 32, 0, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_BrendanMayNormal, gObjectEventPicTable_BrendanNormal, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = {0xFFFF, 0x1100, 0x1102, 512, 32, 32, 0, 1, 0, 0, 2, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_BrendanMachBike, gDummySpriteAffineAnimTable};
@@ -10913,7 +10916,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Camper = {0xFFFF, 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Picnicker = {0xFFFF, 0x1105, 0x11FF, 256, 16, 32, 4, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Picnicker, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man3 = {0xFFFF, 0x1104, 0x11FF, 256, 16, 32, 3, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Man3, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman5 = {0xFFFF, 0x1104, 0x11FF, 256, 16, 32, 3, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Woman5, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Youngster = {0xFFFF, 0x1103, 0x11FF, 256, 16, 32, 2, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Youngster, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Youngster = {0xFFFF, 0x1124, 0x11FF, 256, 16, 32, 2, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Youngster, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BugCatcher = {0xFFFF, 0x1103, 0x11FF, 256, 16, 32, 2, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_BugCatcher, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PsychicM = {0xFFFF, 0x1106, 0x11FF, 256, 16, 32, 5, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_PsychicM, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SchoolKidM = {0xFFFF, 0x1103, 0x11FF, 256, 16, 32, 2, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_SchoolKidM, gDummySpriteAffineAnimTable};
@@ -11122,7 +11125,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireBrenda
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay = {0xFFFF, 0x1123, 0x11FF, 256, 16, 32, 10, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_RubySapphireMay, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {0xFFFF, 0x1121, 0x11FF, 512, 32, 32, 10, 1, 0, 0, 1, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Lugia, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {0xFFFF, 0x1120, 0x11FF, 512, 32, 32, 10, 1, 0, 0, 1, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_HoOh, gObjectEventPicTable_HoOh, gDummySpriteAffineAnimTable};
-# 448 "src/event_object_movement.c" 2
+# 450 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_graphics_info_pointers.h" 1
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike;
@@ -11624,7 +11627,7 @@ const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[
     [5] = &gObjectEventGraphicsInfo_UnusedMauvilleOldMan1,
     [6] = &gObjectEventGraphicsInfo_UnusedMauvilleOldMan2,
 };
-# 449 "src/event_object_movement.c" 2
+# 451 "src/event_object_movement.c" 2
 
 const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette0, 0x1103},
@@ -11662,7 +11665,8 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette32, 0x1121},
     {gObjectEventPalette33, 0x1122},
     {gObjectEventPalette34, 0x1123},
-    {((void *)0), 0x0000},
+    {gObjectEventPaletteyoungsterhgss, 0x1124},
+    {((void *)0),0x0000},
 };
 
 
@@ -12437,7 +12441,7 @@ const u16* const gBerryTreeObjectEventGraphicsIdTablePointers[] = {
     [209 - 144] = gBerryTreeObjectEventGraphicsIdTable,
     [210 - 144] = gBerryTreeObjectEventGraphicsIdTable,
 };
-# 491 "src/event_object_movement.c" 2
+# 494 "src/event_object_movement.c" 2
 # 1 "src/data/field_effects/field_effect_objects.h" 1
 const struct SpritePalette gSpritePalette_GeneralFieldEffect0 = {gFieldEffectObjectPalette0, 0x1004};
 const struct SpritePalette gSpritePalette_GeneralFieldEffect1 = {gFieldEffectObjectPalette1, 0x1005};
@@ -13728,7 +13732,7 @@ const struct SpriteTemplate gFieldEffectObjectTemplate_Rayquaza = {
 };
 
 static const struct SpritePalette sSpritePalette_Unused = {gObjectEventPalette2, 0x1011};
-# 492 "src/event_object_movement.c" 2
+# 495 "src/event_object_movement.c" 2
 
 const s16 gMovementDelaysMedium[] = {32, 64, 96, 128};
 const s16 gMovementDelaysLong[] = {32, 64, 128, 192};
@@ -14173,7 +14177,7 @@ u8 (*const gMovementTypeFuncs_Invisible[])(struct ObjectEvent *, struct Sprite *
     MovementType_Invisible_Step1,
     MovementType_Invisible_Step2,
 };
-# 498 "src/event_object_movement.c" 2
+# 501 "src/event_object_movement.c" 2
 
 const u8 gFaceDirectionAnimNums[] = {
     [0] = 0,
@@ -16108,7 +16112,7 @@ u8 (*const gMovementActionFuncs_DestroyExtraTaskIfAtTop[])(struct ObjectEvent *,
     MovementAction_DestroyExtraTaskIfAtTop_Step0,
     MovementAction_Finish,
 };
-# 919 "src/event_object_movement.c" 2
+# 922 "src/event_object_movement.c" 2
 
 
 
@@ -19954,7 +19958,7 @@ void UpdateObjectEventCurrentMovement(struct ObjectEvent *objectEvent, struct Sp
     UpdateObjectEventVisibility(objectEvent, sprite);
     ObjectEventUpdateSubpriority(objectEvent, sprite);
 }
-# 4776 "src/event_object_movement.c"
+# 4779 "src/event_object_movement.c"
 u8 GetFaceDirectionMovementAction(u32 idx){ u8 direction; u8 animIds[sizeof(gFaceDirectionMovementActions)]; direction = idx; memcpy(animIds, (gFaceDirectionMovementActions), sizeof(gFaceDirectionMovementActions)); if (direction > 4) direction = 0; return animIds[direction];};
 u8 GetWalkSlowMovementAction(u32 idx){ u8 direction; u8 animIds[sizeof(gWalkSlowMovementActions)]; direction = idx; memcpy(animIds, (gWalkSlowMovementActions), sizeof(gWalkSlowMovementActions)); if (direction > 4) direction = 0; return animIds[direction];};
 u8 GetWalkNormalMovementAction(u32 idx){ u8 direction; u8 animIds[sizeof(gWalkNormalMovementActions)]; direction = idx; memcpy(animIds, (gWalkNormalMovementActions), sizeof(gWalkNormalMovementActions)); if (direction > 4) direction = 0; return animIds[direction];};
