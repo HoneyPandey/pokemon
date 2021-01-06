@@ -61,28 +61,6 @@
 
 
 
-const struct WildPokemon gRoute101_LandMons[] =
-{
-    { 2, 2, SPECIES_WURMPLE },
-    { 2, 2, SPECIES_POOCHYENA },
-    { 2, 2, SPECIES_WURMPLE },
-    { 3, 3, SPECIES_WURMPLE },
-    { 3, 3, SPECIES_POOCHYENA },
-    { 3, 3, SPECIES_POOCHYENA },
-    { 3, 3, SPECIES_WURMPLE },
-    { 3, 3, SPECIES_POOCHYENA },
-    { 2, 2, SPECIES_ZIGZAGOON },
-    { 2, 2, SPECIES_ZIGZAGOON },
-    { 3, 3, SPECIES_ZIGZAGOON },
-    { 3, 3, SPECIES_ZIGZAGOON },
-};
-
-const struct WildPokemonInfo gRoute101_LandMonsInfo = { 20, gRoute101_LandMons };
-
-
-
-
-
 const struct WildPokemon gRoute102_LandMons[] =
 {
     { 3, 3, SPECIES_POOCHYENA },
@@ -3788,14 +3766,6 @@ const struct WildPokemonInfo gMeteorFalls_StevensCave_LandMonsInfo = { 10, gMete
 
 const struct WildPokemonHeader gWildMonHeaders[] =
 {
-    {
-        .mapGroup = MAP_GROUP(ROUTE101),
-        .mapNum = MAP_NUM(ROUTE101),
-        .landMonsInfo = &gRoute101_LandMonsInfo,
-        .waterMonsInfo = NULL,
-        .rockSmashMonsInfo = NULL,
-        .fishingMonsInfo = NULL,
-    },
     {
         .mapGroup = MAP_GROUP(ROUTE102),
         .mapNum = MAP_NUM(ROUTE102),

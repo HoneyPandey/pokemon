@@ -437,6 +437,22 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_33 0x1122
 #define OBJ_EVENT_PAL_TAG_34 0x1123
 #define OBJ_EVENT_PAL_youngsterhgss 0x1124
+#define OBJ_EVENT_PAL_bugcatcherhgss 0x1125
+#define OBJ_EVENT_PAL_fatmanhgss 0x1126
+#define OBJ_EVENT_PAL_man1hgss 0x1127
+#define OBJ_EVENT_PAL_lasshgss 0x1128
+#define OBJ_EVENT_PAL_expertmhgss 0x1129
+#define OBJ_EVENT_PAL_expertfhgss 0x112A
+#define OBJ_EVENT_PAL_hikerhgss 0x112B
+#define OBJ_EVENT_PAL_gentlemanhgss 0x112C
+#define OBJ_EVENT_PAL_policehgss 0x112D
+#define OBJ_EVENT_PAL_sailorhgss 0x112E
+#define OBJ_EVENT_PAL_boy2hgss 0x112F
+#define OBJ_EVENT_PAL_marthgss 0x1130
+#define OBJ_EVENT_PAL_fishermanhgss 0x1131
+#define OBJ_EVENT_PAL_girl1hgss 0x1132
+
+
 #define OBJ_EVENT_PAL_TAG_NONE 0x11FF
 
 
@@ -485,7 +501,22 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette32, OBJ_EVENT_PAL_TAG_32},
     {gObjectEventPalette33, OBJ_EVENT_PAL_TAG_33},
     {gObjectEventPalette34, OBJ_EVENT_PAL_TAG_34},
-    {gObjectEventPaletteyoungsterhgss, OBJ_EVENT_PAL_youngsterhgss},
+    {gObjectEventPalette_Youngster, OBJ_EVENT_PAL_youngsterhgss},
+    {gObjectEventPalette_BugCatcher, OBJ_EVENT_PAL_bugcatcherhgss},
+    {gObjectEventPalette_FatMan, OBJ_EVENT_PAL_fatmanhgss},
+    {gObjectEventPalette_Man1, OBJ_EVENT_PAL_man1hgss},
+    {gObjectEventPalette_Lass, OBJ_EVENT_PAL_lasshgss},
+    {gObjectEventPalette_ExpertM, OBJ_EVENT_PAL_expertmhgss},
+    {gObjectEventPalette_ExpertF, OBJ_EVENT_PAL_expertfhgss},
+    {gObjectEventPalette_Hiker, OBJ_EVENT_PAL_hikerhgss},
+    {gObjectEventPalette_Gentleman, OBJ_EVENT_PAL_gentlemanhgss},
+    {gObjectEventPalette_AquaGruntM, OBJ_EVENT_PAL_policehgss},
+    {gObjectEventPalette_Sailor, OBJ_EVENT_PAL_sailorhgss},
+    {gObjectEventPalette_Boy2, OBJ_EVENT_PAL_boy2hgss},
+    {gObjectEventPalette_MartEmployee, OBJ_EVENT_PAL_marthgss},
+    {gObjectEventPalette_Fisherman, OBJ_EVENT_PAL_fishermanhgss},
+    {gObjectEventPalette_Girl1, OBJ_EVENT_PAL_girl1hgss},
+
     {NULL,0x0000},
 };
 

@@ -21,57 +21,8 @@ gIsSurfingEncounter:
 	.size	 sFeebasRngValue,4
 sFeebasRngValue:
 	.word	0x0
-	.globl	gRoute101_LandMons
-	.section .rodata
-	.align	2, 0
-	.type	 gRoute101_LandMons,object
-gRoute101_LandMons:
-	.byte	0x2
-	.byte	0x2
-	.short	0x109
-	.byte	0x2
-	.byte	0x2
-	.short	0x105
-	.byte	0x2
-	.byte	0x2
-	.short	0x109
-	.byte	0x3
-	.byte	0x3
-	.short	0x109
-	.byte	0x3
-	.byte	0x3
-	.short	0x105
-	.byte	0x3
-	.byte	0x3
-	.short	0x105
-	.byte	0x3
-	.byte	0x3
-	.short	0x109
-	.byte	0x3
-	.byte	0x3
-	.short	0x105
-	.byte	0x2
-	.byte	0x2
-	.short	0x107
-	.byte	0x2
-	.byte	0x2
-	.short	0x107
-	.byte	0x3
-	.byte	0x3
-	.short	0x107
-	.byte	0x3
-	.byte	0x3
-	.short	0x107
-	.size	 gRoute101_LandMons,48
-	.globl	gRoute101_LandMonsInfo
-	.align	2, 0
-	.type	 gRoute101_LandMonsInfo,object
-	.size	 gRoute101_LandMonsInfo,8
-gRoute101_LandMonsInfo:
-	.byte	0x14
-	.space	3
-	.word	gRoute101_LandMons
 	.globl	gRoute102_LandMons
+	.section .rodata
 	.align	2, 0
 	.type	 gRoute102_LandMons,object
 gRoute102_LandMons:
@@ -8669,13 +8620,6 @@ gMeteorFalls_StevensCave_LandMonsInfo:
 	.type	 gWildMonHeaders,object
 gWildMonHeaders:
 	.byte	0x0
-	.byte	0x10
-	.space	2
-	.word	gRoute101_LandMonsInfo
-	.word	0x0
-	.word	0x0
-	.word	0x0
-	.byte	0x0
 	.byte	0x11
 	.space	2
 	.word	gRoute102_LandMonsInfo
@@ -9543,7 +9487,7 @@ gWildMonHeaders:
 	.word	0x0
 	.word	0x0
 	.word	0x0
-	.size	 gWildMonHeaders,2500
+	.size	 gWildMonHeaders,2480
 	.globl	gBattlePyramid_1_LandMons
 	.align	2, 0
 	.type	 gBattlePyramid_1_LandMons,object

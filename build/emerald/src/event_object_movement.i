@@ -5311,8 +5311,8 @@ const u16 gObjectEventPalette7[] = INCBIN_U16("graphics/object_events/palettes/0
 const u32 gObjectEventPic_NinjaBoy[] = INCBIN_U32("graphics/object_events/pics/people/ninja_boy.4bpp");
 const u32 gObjectEventPic_Twin[] = INCBIN_U32("graphics/object_events/pics/people/twin.4bpp");
 const u32 gObjectEventPic_Boy1[] = INCBIN_U32("graphics/object_events/pics/people/boy_1.4bpp");
-const u32 gObjectEventPic_Girl1[] = INCBIN_U32("graphics/object_events/pics/people/girl_1.4bpp");
-const u32 gObjectEventPic_Boy2[] = INCBIN_U32("graphics/object_events/pics/people/boy_2.4bpp");
+const u32 gObjectEventPic_Girl1[] = INCBIN_U32("graphics/object_events/pics/people/new/girl1hgss.4bpp");
+const u32 gObjectEventPic_Boy2[] = INCBIN_U32("graphics/object_events/pics/people/new/boy2hgss.4bpp");
 const u32 gObjectEventPic_Girl2[] = INCBIN_U32("graphics/object_events/pics/people/girl_2.4bpp");
 const u32 gObjectEventPic_LittleBoy[] = INCBIN_U32("graphics/object_events/pics/people/little_boy.4bpp");
 const u32 gObjectEventPic_LittleGirl[] = INCBIN_U32("graphics/object_events/pics/people/little_girl.4bpp");
@@ -5320,12 +5320,12 @@ const u32 gObjectEventPic_Boy3[] = INCBIN_U32("graphics/object_events/pics/peopl
 const u32 gObjectEventPic_Girl3[] = INCBIN_U32("graphics/object_events/pics/people/girl_3.4bpp");
 const u32 gObjectEventPic_RichBoy[] = INCBIN_U32("graphics/object_events/pics/people/rich_boy.4bpp");
 const u32 gObjectEventPic_Woman1[] = INCBIN_U32("graphics/object_events/pics/people/woman_1.4bpp");
-const u32 gObjectEventPic_FatMan[] = INCBIN_U32("graphics/object_events/pics/people/fat_man.4bpp");
+const u32 gObjectEventPic_FatMan[] = INCBIN_U32("graphics/object_events/pics/people/new/fatmanhgss.4bpp");
 const u32 gObjectEventPic_PokefanF[] = INCBIN_U32("graphics/object_events/pics/people/pokefan_f.4bpp");
-const u32 gObjectEventPic_Man1[] = INCBIN_U32("graphics/object_events/pics/people/man_1.4bpp");
+const u32 gObjectEventPic_Man1[] = INCBIN_U32("graphics/object_events/pics/people/new/man1hgss.4bpp");
 const u32 gObjectEventPic_Woman2[] = INCBIN_U32("graphics/object_events/pics/people/woman_2.4bpp");
-const u32 gObjectEventPic_ExpertM[] = INCBIN_U32("graphics/object_events/pics/people/expert_m.4bpp");
-const u32 gObjectEventPic_ExpertF[] = INCBIN_U32("graphics/object_events/pics/people/expert_f.4bpp");
+const u32 gObjectEventPic_ExpertM[] = INCBIN_U32("graphics/object_events/pics/people/new/expertmhgss.4bpp");
+const u32 gObjectEventPic_ExpertF[] = INCBIN_U32("graphics/object_events/pics/people/new/expertfhgss.4bpp");
 const u32 gObjectEventPic_Man2[] = INCBIN_U32("graphics/object_events/pics/people/man_2.4bpp");
 const u32 gObjectEventPic_Woman3[] = INCBIN_U32("graphics/object_events/pics/people/woman_3.4bpp");
 const u32 gObjectEventPic_PokefanM[] = INCBIN_U32("graphics/object_events/pics/people/pokefan_m.4bpp");
@@ -5339,7 +5339,7 @@ const u32 gObjectEventPic_Picnicker[] = INCBIN_U32("graphics/object_events/pics/
 const u32 gObjectEventPic_Man3[] = INCBIN_U32("graphics/object_events/pics/people/man_3.4bpp");
 const u32 gObjectEventPic_Woman5[] = INCBIN_U32("graphics/object_events/pics/people/woman_5.4bpp");
 const u32 gObjectEventPic_Youngster[] = INCBIN_U32("graphics/object_events/pics/people/new/youngsterhgss.4bpp");
-const u32 gObjectEventPic_BugCatcher[] = INCBIN_U32("graphics/object_events/pics/people/bug_catcher.4bpp");
+const u32 gObjectEventPic_BugCatcher[] = INCBIN_U32("graphics/object_events/pics/people/new/bugcatcherhgss.4bpp");
 const u32 gObjectEventPic_PsychicM[] = INCBIN_U32("graphics/object_events/pics/people/psychic_m.4bpp");
 const u32 gObjectEventPic_SchoolKidM[] = INCBIN_U32("graphics/object_events/pics/people/school_kid_m.4bpp");
 const u32 gObjectEventPic_Maniac[] = INCBIN_U32("graphics/object_events/pics/people/maniac.4bpp");
@@ -5350,15 +5350,15 @@ const u32 gObjectEventPic_SwimmerF[] = INCBIN_U32("graphics/object_events/pics/p
 const u32 gObjectEventPic_BlackBelt[] = INCBIN_U32("graphics/object_events/pics/people/black_belt.4bpp");
 const u32 gObjectEventPic_Beauty[] = INCBIN_U32("graphics/object_events/pics/people/beauty.4bpp");
 const u32 gObjectEventPic_Scientist1[] = INCBIN_U32("graphics/object_events/pics/people/scientist_1.4bpp");
-const u32 gObjectEventPic_Lass[] = INCBIN_U32("graphics/object_events/pics/people/lass.4bpp");
-const u32 gObjectEventPic_Gentleman[] = INCBIN_U32("graphics/object_events/pics/people/gentleman.4bpp");
-const u32 gObjectEventPic_Sailor[] = INCBIN_U32("graphics/object_events/pics/people/sailor.4bpp");
-const u32 gObjectEventPic_Fisherman[] = INCBIN_U32("graphics/object_events/pics/people/fisherman.4bpp");
+const u32 gObjectEventPic_Lass[] = INCBIN_U32("graphics/object_events/pics/people/new/lasshgss.4bpp");
+const u32 gObjectEventPic_Gentleman[] = INCBIN_U32("graphics/object_events/pics/people/new/gentlemanhgss.4bpp");
+const u32 gObjectEventPic_Sailor[] = INCBIN_U32("graphics/object_events/pics/people/new/sailorhgss.4bpp");
+const u32 gObjectEventPic_Fisherman[] = INCBIN_U32("graphics/object_events/pics/people/new/fishermanhgss.4bpp");
 const u32 gObjectEventPic_RunningTriathleteM[] = INCBIN_U32("graphics/object_events/pics/people/running_triathlete_m.4bpp");
 const u32 gObjectEventPic_RunningTriathleteF[] = INCBIN_U32("graphics/object_events/pics/people/running_triathlete_f.4bpp");
 const u32 gObjectEventPic_TuberF[] = INCBIN_U32("graphics/object_events/pics/people/tuber_f.4bpp");
 const u32 gObjectEventPic_TuberM[] = INCBIN_U32("graphics/object_events/pics/people/tuber_m.4bpp");
-const u32 gObjectEventPic_Hiker[] = INCBIN_U32("graphics/object_events/pics/people/hiker.4bpp");
+const u32 gObjectEventPic_Hiker[] = INCBIN_U32("graphics/object_events/pics/people/new/hikerhgss.4bpp");
 const u32 gObjectEventPic_CyclingTriathleteM[] = INCBIN_U32("graphics/object_events/pics/people/cycling_triathlete_m.4bpp");
 const u32 gObjectEventPic_CyclingTriathleteF[] = INCBIN_U32("graphics/object_events/pics/people/cycling_triathlete_f.4bpp");
 const u32 gObjectEventPic_Man4[] = INCBIN_U32("graphics/object_events/pics/people/man_4.4bpp");
@@ -5370,14 +5370,14 @@ const u32 gObjectEventPic_ReporterM[] = INCBIN_U32("graphics/object_events/pics/
 const u32 gObjectEventPic_ReporterF[] = INCBIN_U32("graphics/object_events/pics/people/reporter_f.4bpp");
 const u32 gObjectEventPic_MauvilleOldMan1[] = INCBIN_U32("graphics/object_events/pics/people/mauville_old_man_1.4bpp");
 const u32 gObjectEventPic_MauvilleOldMan2[] = INCBIN_U32("graphics/object_events/pics/people/mauville_old_man_2.4bpp");
-const u32 gObjectEventPic_MartEmployee[] = INCBIN_U32("graphics/object_events/pics/people/mart_employee.4bpp");
+const u32 gObjectEventPic_MartEmployee[] = INCBIN_U32("graphics/object_events/pics/people/new/marthgss.4bpp");
 const u32 gObjectEventPic_RooftopSaleWoman[] = INCBIN_U32("graphics/object_events/pics/people/rooftop_sale_woman.4bpp");
 const u32 gObjectEventPic_Teala[] = INCBIN_U32("graphics/object_events/pics/people/teala.4bpp");
 const u32 gObjectEventPic_Artist[] = INCBIN_U32("graphics/object_events/pics/people/artist.4bpp");
 const u32 gObjectEventPic_Cameraman[] = INCBIN_U32("graphics/object_events/pics/people/cameraman.4bpp");
 const u32 gObjectEventPic_Scientist2[] = INCBIN_U32("graphics/object_events/pics/people/scientist_2.4bpp");
 const u32 gObjectEventPic_DevonEmployee[] = INCBIN_U32("graphics/object_events/pics/people/devon_employee.4bpp");
-const u32 gObjectEventPic_AquaMemberM[] = INCBIN_U32("graphics/object_events/pics/people/team_aqua/aqua_member_m.4bpp");
+const u32 gObjectEventPic_AquaMemberM[] = INCBIN_U32("graphics/object_events/pics/people/new/policehgss.4bpp");
 const u32 gObjectEventPic_AquaMemberF[] = INCBIN_U32("graphics/object_events/pics/people/team_aqua/aqua_member_f.4bpp");
 const u32 gObjectEventPic_MagmaMemberM[] = INCBIN_U32("graphics/object_events/pics/people/team_magma/magma_member_m.4bpp");
 const u32 gObjectEventPic_MagmaMemberF[] = INCBIN_U32("graphics/object_events/pics/people/team_magma/magma_member_f.4bpp");
@@ -5612,8 +5612,21 @@ const u16 gObjectEventPalette32[] = INCBIN_U16("graphics/object_events/palettes/
 const u32 gObjectEventPic_HoOh[] = INCBIN_U32("graphics/object_events/pics/pokemon/ho_oh.4bpp");
 const u16 gObjectEventPalette31[] = INCBIN_U16("graphics/object_events/palettes/31.gbapal");
 
-
 const u16 gObjectEventPalette_Youngster[] = INCBIN_U16("graphics/object_events/pics/people/new/youngsterhgss.gbapal");
+const u16 gObjectEventPalette_BugCatcher[] = INCBIN_U16("graphics/object_events/pics/people/new/bugcatcherhgss.gbapal");
+const u16 gObjectEventPalette_FatMan[] = INCBIN_U16("graphics/object_events/pics/people/new/fatmanhgss.gbapal");
+const u16 gObjectEventPalette_Man1[] = INCBIN_U16("graphics/object_events/pics/people/new/man1hgss.gbapal");
+const u16 gObjectEventPalette_Lass[] = INCBIN_U16("graphics/object_events/pics/people/new/lasshgss.gbapal");
+const u16 gObjectEventPalette_ExpertM[] = INCBIN_U16("graphics/object_events/pics/people/new/expertmhgss.gbapal");
+const u16 gObjectEventPalette_ExpertF[] = INCBIN_U16("graphics/object_events/pics/people/new/expertfhgss.gbapal");
+const u16 gObjectEventPalette_Hiker[] = INCBIN_U16("graphics/object_events/pics/people/new/hikerhgss.gbapal");
+const u16 gObjectEventPalette_Gentleman[] = INCBIN_U16("graphics/object_events/pics/people/new/gentlemanhgss.gbapal");
+const u16 gObjectEventPalette_AquaGruntM[] = INCBIN_U16("graphics/object_events/pics/people/new/policehgss.gbapal");
+const u16 gObjectEventPalette_Sailor[] = INCBIN_U16("graphics/object_events/pics/people/new/sailorhgss.gbapal");
+const u16 gObjectEventPalette_Boy2[] = INCBIN_U16("graphics/object_events/pics/people/new/boy2hgss.gbapal");
+const u16 gObjectEventPalette_MartEmployee[] = INCBIN_U16("graphics/object_events/pics/people/new/marthgss.gbapal");
+const u16 gObjectEventPalette_Fisherman[] = INCBIN_U16("graphics/object_events/pics/people/new/fishermanhgss.gbapal");
+const u16 gObjectEventPalette_Girl1[] = INCBIN_U16("graphics/object_events/pics/people/new/girl1hgss.gbapal");
 # 149 "src/event_object_movement.c" 2
 
 
@@ -5869,7 +5882,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
     [0x4F] = 3,
     [0x50] = 4,
 };
-# 444 "src/event_object_movement.c"
+# 460 "src/event_object_movement.c"
 # 1 "src/data/field_effects/field_effect_object_template_pointers.h" 1
 const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowSmall;
 const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowMedium;
@@ -5948,7 +5961,7 @@ const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[] = {
     [35] = &gFieldEffectObjectTemplate_SmallSparkle,
     [36] = &gFieldEffectObjectTemplate_Rayquaza,
 };
-# 445 "src/event_object_movement.c" 2
+# 461 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_pic_tables.h" 1
 const struct SpriteFrameImage gObjectEventPicTable_BrendanNormal[] = {
     {.data = (u8 *)gObjectEventPic_BrendanNormal + (2 * 4 * 0 * 64)/2, .size = (2 * 4 * 64)/2},
@@ -8124,7 +8137,7 @@ const struct SpriteFrameImage gObjectEventPicTable_RubySapphireMay[] = {
     {.data = (u8 *)gObjectEventPic_RubySapphireMayNormal + (2 * 4 * 7 * 64)/2, .size = (2 * 4 * 64)/2},
     {.data = (u8 *)gObjectEventPic_RubySapphireMayNormal + (2 * 4 * 8 * 64)/2, .size = (2 * 4 * 64)/2},
 };
-# 446 "src/event_object_movement.c" 2
+# 462 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_anims.h" 1
 const union AnimCmd gObjectEventImageAnim_StayStill[] =
 {
@@ -9297,7 +9310,7 @@ const struct UnkStruct_085094AC gUnknown_085094AC[] = {
         {0, 0, 0, 0},
     },
 };
-# 447 "src/event_object_movement.c" 2
+# 463 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/base_oam.h" 1
 const struct OamData gObjectEventBaseOam_8x8 = {
     .shape = (((0 << 2) | (0)) & 0x03),
@@ -9346,7 +9359,7 @@ const struct OamData gObjectEventBaseOam_64x64 = {
     .size = ((((3 << 2) | (0)) >> 2) & 0x03),
     .priority = 2
 };
-# 448 "src/event_object_movement.c" 2
+# 464 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_subsprites.h" 1
 const struct Subsprite gObjectEventSpriteOamTable_16x16_0[] = {
     {
@@ -10878,7 +10891,7 @@ const struct SubspriteTable gObjectEventSpriteOamTables_88x32[] = {
     {16, gObjectEventSpriteOamTable_88x32_3},
     {16, gObjectEventSpriteOamTable_88x32_3}
 };
-# 449 "src/event_object_movement.c" 2
+# 465 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_graphics_info.h" 1
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {0xFFFF, 0x1100, 0x1102, 512, 16, 32, 0, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_BrendanMayNormal, gObjectEventPicTable_BrendanNormal, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = {0xFFFF, 0x1100, 0x1102, 512, 32, 32, 0, 1, 0, 0, 2, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_BrendanMachBike, gDummySpriteAffineAnimTable};
@@ -11125,7 +11138,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireBrenda
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay = {0xFFFF, 0x1123, 0x11FF, 256, 16, 32, 10, 1, 0, 0, 1, &gObjectEventBaseOam_16x32, gObjectEventSpriteOamTables_16x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_RubySapphireMay, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {0xFFFF, 0x1121, 0x11FF, 512, 32, 32, 10, 1, 0, 0, 1, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Lugia, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {0xFFFF, 0x1120, 0x11FF, 512, 32, 32, 10, 1, 0, 0, 1, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_HoOh, gObjectEventPicTable_HoOh, gDummySpriteAffineAnimTable};
-# 450 "src/event_object_movement.c" 2
+# 466 "src/event_object_movement.c" 2
 # 1 "src/data/object_events/object_event_graphics_info_pointers.h" 1
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike;
@@ -11627,7 +11640,7 @@ const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[
     [5] = &gObjectEventGraphicsInfo_UnusedMauvilleOldMan1,
     [6] = &gObjectEventGraphicsInfo_UnusedMauvilleOldMan2,
 };
-# 451 "src/event_object_movement.c" 2
+# 467 "src/event_object_movement.c" 2
 
 const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette0, 0x1103},
@@ -11665,7 +11678,22 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette32, 0x1121},
     {gObjectEventPalette33, 0x1122},
     {gObjectEventPalette34, 0x1123},
-    {gObjectEventPaletteyoungsterhgss, 0x1124},
+    {gObjectEventPalette_Youngster, 0x1124},
+    {gObjectEventPalette_BugCatcher, 0x1125},
+    {gObjectEventPalette_FatMan, 0x1126},
+    {gObjectEventPalette_Man1, 0x1127},
+    {gObjectEventPalette_Lass, 0x1128},
+    {gObjectEventPalette_ExpertM, 0x1129},
+    {gObjectEventPalette_ExpertF, 0x112A},
+    {gObjectEventPalette_Hiker, 0x112B},
+    {gObjectEventPalette_Gentleman, 0x112C},
+    {gObjectEventPalette_AquaGruntM, 0x112D},
+    {gObjectEventPalette_Sailor, 0x112E},
+    {gObjectEventPalette_Boy2, 0x112F},
+    {gObjectEventPalette_MartEmployee, 0x1130},
+    {gObjectEventPalette_Fisherman, 0x1131},
+    {gObjectEventPalette_Girl1, 0x1132},
+
     {((void *)0),0x0000},
 };
 
@@ -12441,7 +12469,7 @@ const u16* const gBerryTreeObjectEventGraphicsIdTablePointers[] = {
     [209 - 144] = gBerryTreeObjectEventGraphicsIdTable,
     [210 - 144] = gBerryTreeObjectEventGraphicsIdTable,
 };
-# 494 "src/event_object_movement.c" 2
+# 525 "src/event_object_movement.c" 2
 # 1 "src/data/field_effects/field_effect_objects.h" 1
 const struct SpritePalette gSpritePalette_GeneralFieldEffect0 = {gFieldEffectObjectPalette0, 0x1004};
 const struct SpritePalette gSpritePalette_GeneralFieldEffect1 = {gFieldEffectObjectPalette1, 0x1005};
@@ -13732,7 +13760,7 @@ const struct SpriteTemplate gFieldEffectObjectTemplate_Rayquaza = {
 };
 
 static const struct SpritePalette sSpritePalette_Unused = {gObjectEventPalette2, 0x1011};
-# 495 "src/event_object_movement.c" 2
+# 526 "src/event_object_movement.c" 2
 
 const s16 gMovementDelaysMedium[] = {32, 64, 96, 128};
 const s16 gMovementDelaysLong[] = {32, 64, 128, 192};
@@ -14177,7 +14205,7 @@ u8 (*const gMovementTypeFuncs_Invisible[])(struct ObjectEvent *, struct Sprite *
     MovementType_Invisible_Step1,
     MovementType_Invisible_Step2,
 };
-# 501 "src/event_object_movement.c" 2
+# 532 "src/event_object_movement.c" 2
 
 const u8 gFaceDirectionAnimNums[] = {
     [0] = 0,
@@ -16112,7 +16140,7 @@ u8 (*const gMovementActionFuncs_DestroyExtraTaskIfAtTop[])(struct ObjectEvent *,
     MovementAction_DestroyExtraTaskIfAtTop_Step0,
     MovementAction_Finish,
 };
-# 922 "src/event_object_movement.c" 2
+# 953 "src/event_object_movement.c" 2
 
 
 
@@ -19958,7 +19986,7 @@ void UpdateObjectEventCurrentMovement(struct ObjectEvent *objectEvent, struct Sp
     UpdateObjectEventVisibility(objectEvent, sprite);
     ObjectEventUpdateSubpriority(objectEvent, sprite);
 }
-# 4779 "src/event_object_movement.c"
+# 4810 "src/event_object_movement.c"
 u8 GetFaceDirectionMovementAction(u32 idx){ u8 direction; u8 animIds[sizeof(gFaceDirectionMovementActions)]; direction = idx; memcpy(animIds, (gFaceDirectionMovementActions), sizeof(gFaceDirectionMovementActions)); if (direction > 4) direction = 0; return animIds[direction];};
 u8 GetWalkSlowMovementAction(u32 idx){ u8 direction; u8 animIds[sizeof(gWalkSlowMovementActions)]; direction = idx; memcpy(animIds, (gWalkSlowMovementActions), sizeof(gWalkSlowMovementActions)); if (direction > 4) direction = 0; return animIds[direction];};
 u8 GetWalkNormalMovementAction(u32 idx){ u8 direction; u8 animIds[sizeof(gWalkNormalMovementActions)]; direction = idx; memcpy(animIds, (gWalkNormalMovementActions), sizeof(gWalkNormalMovementActions)); if (direction > 4) direction = 0; return animIds[direction];};

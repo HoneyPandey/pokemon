@@ -4169,28 +4169,6 @@ __attribute__((section("ewram_data"))) static u32 sFeebasRngValue = 0;
 
 # 1 "src/data/wild_encounters.h" 1
 # 64 "src/data/wild_encounters.h"
-const struct WildPokemon gRoute101_LandMons[] =
-{
-    { 2, 2, 265 },
-    { 2, 2, 261 },
-    { 2, 2, 265 },
-    { 3, 3, 265 },
-    { 3, 3, 261 },
-    { 3, 3, 261 },
-    { 3, 3, 265 },
-    { 3, 3, 261 },
-    { 2, 2, 263 },
-    { 2, 2, 263 },
-    { 3, 3, 263 },
-    { 3, 3, 263 },
-};
-
-const struct WildPokemonInfo gRoute101_LandMonsInfo = { 20, gRoute101_LandMons };
-
-
-
-
-
 const struct WildPokemon gRoute102_LandMons[] =
 {
     { 3, 3, 261 },
@@ -7896,14 +7874,6 @@ const struct WildPokemonInfo gMeteorFalls_StevensCave_LandMonsInfo = { 10, gMete
 
 const struct WildPokemonHeader gWildMonHeaders[] =
 {
-    {
-        .mapGroup = ((16 | (0 << 8)) >> 8),
-        .mapNum = ((16 | (0 << 8)) & 0xFF),
-        .landMonsInfo = &gRoute101_LandMonsInfo,
-        .waterMonsInfo = ((void *)0),
-        .rockSmashMonsInfo = ((void *)0),
-        .fishingMonsInfo = ((void *)0),
-    },
     {
         .mapGroup = ((17 | (0 << 8)) >> 8),
         .mapNum = ((17 | (0 << 8)) & 0xFF),
