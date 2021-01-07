@@ -1,4 +1,4 @@
-const u32 gObjectEventPic_BrendanNormal[] = INCBIN_U32("graphics/object_events/pics/people/brendan/walking.4bpp");
+const u32 gObjectEventPic_BrendanNormal[] = INCBIN_U32("graphics/object_events/pics/people/new/protagwalk.4bpp");
 const u32 gObjectEventPic_BrendanRunning[] = INCBIN_U32("graphics/object_events/pics/people/brendan/running.4bpp");
 const u16 gObjectEventPalette8[] = INCBIN_U16("graphics/object_events/palettes/08.gbapal");
 const u32 gObjectEventPic_RubySapphireBrendanNormal[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_brendan/walking.4bpp");
@@ -387,3 +387,4 @@ const u16 gObjectEventPalette_Boy2[] = INCBIN_U16("graphics/object_events/pics/p
 const u16 gObjectEventPalette_MartEmployee[] = INCBIN_U16("graphics/object_events/pics/people/new/marthgss.gbapal");
 const u16 gObjectEventPalette_Fisherman[] = INCBIN_U16("graphics/object_events/pics/people/new/fishermanhgss.gbapal");
 const u16 gObjectEventPalette_Girl1[] = INCBIN_U16("graphics/object_events/pics/people/new/girl1hgss.gbapal");
+const u16 gObjectEventPalette_BrendanNormal[] = INCBIN_U16("graphics/object_events/pics/people/new/protagwalk.gbapal");
