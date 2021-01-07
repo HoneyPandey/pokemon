@@ -128415,7 +128415,7 @@ gObjectEventGraphicsInfo_Twin:
 	.size	 gObjectEventGraphicsInfo_Boy1,36
 gObjectEventGraphicsInfo_Boy1:
 	.short	0xffff
-	.short	0x1105
+	.short	0x1103
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -128434,7 +128434,7 @@ gObjectEventGraphicsInfo_Boy1:
 	.size	 gObjectEventGraphicsInfo_Girl1,36
 gObjectEventGraphicsInfo_Girl1:
 	.short	0xffff
-	.short	0x1104
+	.short	0x1132
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -128605,7 +128605,7 @@ gObjectEventGraphicsInfo_Woman1:
 	.size	 gObjectEventGraphicsInfo_FatMan,36
 gObjectEventGraphicsInfo_FatMan:
 	.short	0xffff
-	.short	0x1103
+	.short	0x1126
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -128643,7 +128643,7 @@ gObjectEventGraphicsInfo_PokefanF:
 	.size	 gObjectEventGraphicsInfo_Man1,36
 gObjectEventGraphicsInfo_Man1:
 	.short	0xffff
-	.short	0x1105
+	.short	0x1127
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -128681,7 +128681,7 @@ gObjectEventGraphicsInfo_Woman2:
 	.size	 gObjectEventGraphicsInfo_ExpertM,36
 gObjectEventGraphicsInfo_ExpertM:
 	.short	0xffff
-	.short	0x1106
+	.short	0x1129
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -128700,7 +128700,7 @@ gObjectEventGraphicsInfo_ExpertM:
 	.size	 gObjectEventGraphicsInfo_ExpertF,36
 gObjectEventGraphicsInfo_ExpertF:
 	.short	0xffff
-	.short	0x1106
+	.short	0x112a
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -128966,7 +128966,7 @@ gObjectEventGraphicsInfo_Youngster:
 	.size	 gObjectEventGraphicsInfo_BugCatcher,36
 gObjectEventGraphicsInfo_BugCatcher:
 	.short	0xffff
-	.short	0x1103
+	.short	0x1125
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -129175,7 +129175,7 @@ gObjectEventGraphicsInfo_Scientist1:
 	.size	 gObjectEventGraphicsInfo_Lass,36
 gObjectEventGraphicsInfo_Lass:
 	.short	0xffff
-	.short	0x1106
+	.short	0x1128
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -129194,7 +129194,7 @@ gObjectEventGraphicsInfo_Lass:
 	.size	 gObjectEventGraphicsInfo_Gentleman,36
 gObjectEventGraphicsInfo_Gentleman:
 	.short	0xffff
-	.short	0x1105
+	.short	0x112c
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -129213,7 +129213,7 @@ gObjectEventGraphicsInfo_Gentleman:
 	.size	 gObjectEventGraphicsInfo_Sailor,36
 gObjectEventGraphicsInfo_Sailor:
 	.short	0xffff
-	.short	0x1103
+	.short	0x112e
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -129232,7 +129232,7 @@ gObjectEventGraphicsInfo_Sailor:
 	.size	 gObjectEventGraphicsInfo_Fisherman,36
 gObjectEventGraphicsInfo_Fisherman:
 	.short	0xffff
-	.short	0x1104
+	.short	0x1131
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -129327,7 +129327,7 @@ gObjectEventGraphicsInfo_TuberM:
 	.size	 gObjectEventGraphicsInfo_Hiker,36
 gObjectEventGraphicsInfo_Hiker:
 	.short	0xffff
-	.short	0x1103
+	.short	0x112b
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -129840,7 +129840,7 @@ gObjectEventGraphicsInfo_CuttableTree:
 	.size	 gObjectEventGraphicsInfo_MartEmployee,36
 gObjectEventGraphicsInfo_MartEmployee:
 	.short	0xffff
-	.short	0x1103
+	.short	0x1130
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
@@ -130505,7 +130505,7 @@ gObjectEventGraphicsInfo_DevonEmployee:
 	.size	 gObjectEventGraphicsInfo_AquaMemberM,36
 gObjectEventGraphicsInfo_AquaMemberM:
 	.short	0xffff
-	.short	0x1106
+	.short	0x112d
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
