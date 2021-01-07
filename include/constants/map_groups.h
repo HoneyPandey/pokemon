@@ -67,6 +67,7 @@
 #define MAP_NEW_MAP2            (58 | (0 << 8))
 #define MAP_RELISA_CITY         (59 | (0 << 8))
 #define MAP_UNDERGROUND_CAVE    (60 | (0 << 8))
+#define MAP_ROUTE1PASS          (61 | (0 << 8))
 
 // Map Group 1
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

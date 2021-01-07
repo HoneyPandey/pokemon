@@ -63,6 +63,7 @@
 	.include "data/maps/NewMap2/header.inc"
 	.include "data/maps/RelisaCity/header.inc"
 	.include "data/maps/Underground_Cave/header.inc"
+	.include "data/maps/Route1Pass/header.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_1F/header.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_2F/header.inc"
 	.include "data/maps/LittlerootTown_MaysHouse_1F/header.inc"

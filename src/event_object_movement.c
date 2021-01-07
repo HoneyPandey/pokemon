@@ -452,6 +452,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_fishermanhgss 0x1131
 #define OBJ_EVENT_PAL_girl1hgss 0x1132
 #define OBJ_EVENT_PAL_protagwalk 0x1133
+#define OBJ_EVENT_PAL_ruston 0x1134
 
 
 
@@ -519,7 +520,7 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette_Fisherman, OBJ_EVENT_PAL_fishermanhgss},
     {gObjectEventPalette_Girl1, OBJ_EVENT_PAL_girl1hgss},
     {gObjectEventPalette_BrendanNormal, OBJ_EVENT_PAL_protagwalk},
-
+    {gObjectEventPalette_Archie, OBJ_EVENT_PAL_ruston},
     {NULL,0x0000},
 };
 

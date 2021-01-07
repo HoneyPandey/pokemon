@@ -63,6 +63,7 @@
 	.include "data/maps/NewMap2/events.inc"
 	.include "data/maps/RelisaCity/events.inc"
 	.include "data/maps/Underground_Cave/events.inc"
+	.include "data/maps/Route1Pass/events.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_1F/events.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_2F/events.inc"
 	.include "data/maps/LittlerootTown_MaysHouse_1F/events.inc"

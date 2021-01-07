@@ -63,6 +63,7 @@
 	.include "data/maps/NewMap2/connections.inc"
 	.include "data/maps/RelisaCity/connections.inc"
 	.include "data/maps/Underground_Cave/connections.inc"
+	.include "data/maps/Route1Pass/connections.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_1F/connections.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_2F/connections.inc"
 	.include "data/maps/LittlerootTown_MaysHouse_1F/connections.inc"

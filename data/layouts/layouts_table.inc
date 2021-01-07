@@ -450,3 +450,4 @@ gMapLayouts::
 	.4byte Oldmanhouse_Layout
 	.4byte RelisaCity_Layout
 	.4byte Underground_Cave_Layout
+	.4byte Route1Pass_Layout

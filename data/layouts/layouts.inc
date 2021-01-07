@@ -6692,3 +6692,18 @@ Underground_Cave_Layout::
 	.4byte gTileset_cave
 	.4byte gTileset_Petalburg
 
+Route1Pass_Layout_Border::
+	.incbin "data/layouts/Route1Pass/border.bin"
+
+Route1Pass_Layout_Blockdata::
+	.incbin "data/layouts/Route1Pass/map.bin"
+
+	.align 2
+Route1Pass_Layout::
+	.4byte 20
+	.4byte 20
+	.4byte Route1Pass_Layout_Border
+	.4byte Route1Pass_Layout_Blockdata
+	.4byte gTileset_Building
+	.4byte gTileset_INSIDE
+

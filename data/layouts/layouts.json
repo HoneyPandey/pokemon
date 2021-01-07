@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Underground_Cave/border.bin",
       "blockdata_filepath": "data/layouts/Underground_Cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1PASS",
+      "name": "Route1Pass_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_INSIDE",
+      "border_filepath": "data/layouts/Route1Pass/border.bin",
+      "blockdata_filepath": "data/layouts/Route1Pass/map.bin"
     }
   ]
 }

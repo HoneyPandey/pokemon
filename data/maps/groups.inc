@@ -64,6 +64,7 @@ gMapGroup0::
 	.4byte NewMap2
 	.4byte RelisaCity
 	.4byte Underground_Cave
+	.4byte Route1Pass
 
 gMapGroup1::
 	.4byte LittlerootTown_BrendansHouse_1F
