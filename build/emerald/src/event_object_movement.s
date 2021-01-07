@@ -128453,7 +128453,7 @@ gObjectEventGraphicsInfo_Girl1:
 	.size	 gObjectEventGraphicsInfo_Boy2,36
 gObjectEventGraphicsInfo_Boy2:
 	.short	0xffff
-	.short	0x1103
+	.short	0x112f
 	.short	0x11ff
 	.short	0x100
 	.short	0x10
