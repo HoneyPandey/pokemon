@@ -31,7 +31,7 @@
   "warp_events": [
     {
       "x": 20,
-      "y": 28,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_NEW_MAP2",
       "dest_warp_id": 4

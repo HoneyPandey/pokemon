@@ -196,7 +196,7 @@ gObjectEventPic_BrendanNormal:
 	.word	-0x11110900
 	.word	-0x11111110
 	.word	-0x11010110
-	.word	-0x10011020
+	.word	-0x10011100
 	.word	-0x5ca5400
 	.word	0x4ad33c00
 	.word	0x4acac000
@@ -62448,17 +62448,17 @@ gObjectEventPic_MagmaMemberM:
 	.word	0x822f2f
 	.word	0x8222f2
 	.word	0x22228800
-	.word	-0x66775800
-	.word	-0x66457200
-	.word	-0x55551200
-	.word	-0x555b2000
+	.word	-0x66777600
+	.word	-0x66477600
+	.word	-0x55555600
+	.word	-0x45552000
 	.word	0x444be000
 	.word	-0x4439e600
 	.word	-0x5595e960
 	.word	0x882222
 	.word	0xa28899
 	.word	0xa88b99
-	.word	0xeeaaaa
+	.word	0xaaaaaa
 	.word	0xeaaab
 	.word	0xeb444
 	.word	0xa16cbb
@@ -62641,7 +62641,7 @@ gObjectEventPic_MagmaMemberM:
 	.word	0x822f2f
 	.word	-0xddd800
 	.word	0x22228800
-	.word	-0x66775800
+	.word	-0x66757800
 	.word	-0x66457200
 	.word	-0x55572000
 	.word	-0x55531560
@@ -62713,8 +62713,8 @@ gObjectEventPic_MagmaMemberM:
 	.word	-0x55192260
 	.word	0x8222f
 	.word	0x88222
-	.word	0x8a889
-	.word	0xe8ab9
+	.word	0x88a88
+	.word	0xe8a8b
 	.word	0xe8aa
 	.word	0xaaecaa
 	.word	0xa5ddacb
