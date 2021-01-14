@@ -13054,7 +13054,7 @@ extern const u32 gTitleScreenEmeraldVersionGfx[];
 extern const u32 gTitleScreenPressStartGfx[];
 extern const u32 gTitleScreenPokemonLogoGfx[];
 extern const u32 gUnknown_08DE0644[];
-extern const u32 gUnknown_08DDE458[];
+
 extern const u16 gTitleScreenBgPalettes[];
 extern const u16 gTitleScreenPressStartPal[];
 extern const u16 gTitleScreenEmeraldVersionPal[];
@@ -14289,7 +14289,65 @@ extern const u16 gPokenavOptions_Pal[];
 # 24 "src/title_screen.c" 2
 # 1 "include/constants/songs.h" 1
 # 25 "src/title_screen.c" 2
-# 38 "src/title_screen.c"
+# 1 "include/constants/species.h" 1
+# 26 "src/title_screen.c" 2
+
+static const u32 gTest_Mon[] = INCBIN_U32("graphics/pokemon/xerneas/active/front.4bpp.lz");
+static const u32 gTestPal_Mon[] = INCBIN_U32("graphics/pokemon/xerneas/active/normal.gbapal.lz");
+
+static const struct CompressedSpriteSheet sSpriteSheet_Mon[] =
+{
+    {gTest_Mon, 4096, 777},
+    {((void *)0)},
+};
+
+static const struct CompressedSpritePalette sSpritePal_Mon[] =
+{
+    {gTestPal_Mon, 777},
+    {((void *)0)},
+};
+
+static const union AnimCmd smon_Anim1[] =
+{
+    {.frame = {0, 30}},
+    {.frame = {64, 30}},
+    {.jump = {.type = -2, .target = 0}},
+};
+
+static const union AnimCmd* const smon_AnimTable[] =
+{
+        smon_Anim1,
+};
+
+static const struct OamData sMonOamData =
+{
+    .y = 0,
+    .affineMode = 0,
+    .objMode = 0,
+    .mosaic = 0,
+    .bpp = 0,
+    .shape = 0,
+    .x = 0,
+    .matrixNum = 0,
+    .size = 3,
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct SpriteTemplate sMonSpriteTemplate =
+
+{
+    .tileTag = 777,
+    .paletteTag = 777,
+    .oam = &sMonOamData,
+    .anims = smon_AnimTable,
+    .images = ((void *)0),
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy,
+};
+# 95 "src/title_screen.c"
 extern struct MusicPlayerInfo gMPlayInfo_BGM;
 
 
@@ -14315,7 +14373,8 @@ static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unk_853
 static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/rayquaza.4bpp.lz");
 static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/rayquaza.bin.lz");
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.lz");
-static const u32 sTitleScreenCloudsGfx[] = INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
+
+
 
 
 
@@ -14809,8 +14868,8 @@ void CB2_InitTitleScreen(void)
         LZ77UnCompVram(sTitleScreenRayquazaGfx, (void *)((0x6000000 + (0x4000 * (2)))));
         LZ77UnCompVram(sTitleScreenRayquazaTilemap, (void *)((0x6000000 + (0x800 * (26)))));
 
-        LZ77UnCompVram(sTitleScreenCloudsGfx, (void *)((0x6000000 + (0x4000 * (3)))));
-        LZ77UnCompVram(gUnknown_08DDE458, (void *)((0x6000000 + (0x800 * (27)))));
+
+
         ScanlineEffect_Stop();
         ResetTasks();
         ResetSpriteData();
@@ -14821,6 +14880,8 @@ void CB2_InitTitleScreen(void)
         LoadCompressedSpriteSheet(&sPokemonLogoShineSpriteSheet[0]);
         LoadPalette(gTitleScreenEmeraldVersionPal, 0x100, 0x20);
         LoadSpritePalette(&sSpritePalette_PressStart[0]);
+        LoadCompressedSpriteSheet(sSpriteSheet_Mon);
+        LoadCompressedSpritePalette(sSpritePal_Mon);
         gMain.state = 2;
         break;
     case 2:
@@ -14961,6 +15022,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
                                     | 0x1000);
         CreatePressStartBanner(128, 108);
         CreateCopyrightBanner(128, 148);
+        CreateSprite(&sMonSpriteTemplate, 190, 110, 0);
         gTasks[taskId].data[4] = 0;
         gTasks[taskId].func = Task_TitleScreenPhase3;
     }
@@ -14984,6 +15046,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
 {
     if ((({(gMain.newKeys) & (0x0001);})) || (({(gMain.newKeys) & (0x0008);})))
     {
+        PlayCryInternal(716, 0, 120, 10, 0);
         FadeOutBGM(4);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 0x10, (((31) | ((31) << 5) | ((31) << 10)) | 0x8000));
         SetMainCallback2(CB2_GoToMainMenu);
@@ -15010,13 +15073,13 @@ static void Task_TitleScreenPhase3(u8 taskId)
         SetGpuReg(0x2c, 0);
         SetGpuReg(0x2e, 0);
         gTasks[taskId].data[0]++;
-        if (gTasks[taskId].data[0] & 1)
-        {
-            gTasks[taskId].data[4]++;
-            gBattle_BG1_Y = gTasks[taskId].data[4] / 2;
-            gBattle_BG1_X = 0;
-        }
-        UpdateLegendaryMarkingColor(gTasks[taskId].data[0]);
+
+
+
+
+
+
+
         if ((gMPlayInfo_BGM.status & 0xFFFF) == 0)
         {
             BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 0x10, (((31) | ((31) << 5) | ((31) << 10)) | 0x8000));
