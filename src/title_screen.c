@@ -24,8 +24,8 @@
 #include "constants/songs.h"
 #include "constants/species.h"
 
-static const u32 gTest_Mon[] = INCBIN_U32("graphics/pokemon/xerneas/active/front.4bpp.lz");
-static const u32 gTestPal_Mon[] = INCBIN_U32("graphics/pokemon/xerneas/active/normal.gbapal.lz");
+static const u32 gTest_Mon[] = INCBIN_U32("graphics/pokemon/yveltal/front.4bpp.lz");
+static const u32 gTestPal_Mon[] = INCBIN_U32("graphics/pokemon/yveltal/normal.gbapal.lz");
 
 static const struct CompressedSpriteSheet sSpriteSheet_Mon[] =
 {
@@ -780,7 +780,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
 {
     if ((JOY_NEW(A_BUTTON)) || (JOY_NEW(START_BUTTON)))
     {
-        PlayCryInternal(SPECIES_XERNEAS, 0, 120, 10, 0);
+        PlayCryInternal(SPECIES_YVELTAL, 0, 120, 10, 0);
         FadeOutBGM(4);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 0x10, RGB_WHITEALPHA);
         SetMainCallback2(CB2_GoToMainMenu);

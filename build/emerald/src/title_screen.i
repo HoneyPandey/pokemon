@@ -14292,8 +14292,8 @@ extern const u16 gPokenavOptions_Pal[];
 # 1 "include/constants/species.h" 1
 # 26 "src/title_screen.c" 2
 
-static const u32 gTest_Mon[] = INCBIN_U32("graphics/pokemon/xerneas/active/front.4bpp.lz");
-static const u32 gTestPal_Mon[] = INCBIN_U32("graphics/pokemon/xerneas/active/normal.gbapal.lz");
+static const u32 gTest_Mon[] = INCBIN_U32("graphics/pokemon/yveltal/front.4bpp.lz");
+static const u32 gTestPal_Mon[] = INCBIN_U32("graphics/pokemon/yveltal/normal.gbapal.lz");
 
 static const struct CompressedSpriteSheet sSpriteSheet_Mon[] =
 {
@@ -14307,17 +14307,7 @@ static const struct CompressedSpritePalette sSpritePal_Mon[] =
     {((void *)0)},
 };
 
-static const union AnimCmd smon_Anim1[] =
-{
-    {.frame = {0, 30}},
-    {.frame = {64, 30}},
-    {.jump = {.type = -2, .target = 0}},
-};
 
-static const union AnimCmd* const smon_AnimTable[] =
-{
-        smon_Anim1,
-};
 
 static const struct OamData sMonOamData =
 {
@@ -14342,12 +14332,12 @@ static const struct SpriteTemplate sMonSpriteTemplate =
     .tileTag = 777,
     .paletteTag = 777,
     .oam = &sMonOamData,
-    .anims = smon_AnimTable,
+    .anims = gDummySpriteAnimTable,
     .images = ((void *)0),
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
 };
-# 95 "src/title_screen.c"
+# 85 "src/title_screen.c"
 extern struct MusicPlayerInfo gMPlayInfo_BGM;
 
 
@@ -15046,7 +15036,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
 {
     if ((({(gMain.newKeys) & (0x0001);})) || (({(gMain.newKeys) & (0x0008);})))
     {
-        PlayCryInternal(716, 0, 120, 10, 0);
+        PlayCryInternal(717, 0, 120, 10, 0);
         FadeOutBGM(4);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 0x10, (((31) | ((31) << 5) | ((31) << 10)) | 0x8000));
         SetMainCallback2(CB2_GoToMainMenu);
